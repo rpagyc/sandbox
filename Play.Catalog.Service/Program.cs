@@ -1,28 +1,17 @@
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization;
-using MongoDB.Bson.Serialization.Serializers;
-using MongoDB.Driver;
-using Play.Catalog.Service.Repositories;
-using Play.Catalog.Service.Settings;
+using Play.Catalog.Service.Entities;
+using Play.Common.MongoDB;
+using Play.Common.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
-BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(BsonType.String));
+var serviceOptions = builder.Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
 
-var serviceOptions = builder.Configuration.GetSection(nameof(ServiceOptions)).Get<ServiceOptions>();
+builder.Services.AddMongo()
+    .AddMongoRepository<Item>("items");
 
-builder.Services.AddSingleton(serviceProvider => {
-    var mongoDbOptions = builder.Configuration.GetSection(nameof(MongoDbOptions)).Get<MongoDbOptions>();
-    var mongoClient = new MongoClient(mongoDbOptions.ConnectionString);
-    return mongoClient.GetDatabase(serviceOptions.ServiceName);
-});
-
-builder.Services.AddSingleton<IItemsRepository, ItemsRepository>();
-
-builder.Services.AddControllers(options => 
+builder.Services.AddControllers(options =>
 {
     options.SuppressAsyncSuffixInActionNames = false;
 });

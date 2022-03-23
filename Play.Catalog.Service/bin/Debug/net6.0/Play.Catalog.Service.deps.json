@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Play.Catalog.Service/1.0.0": {
         "dependencies": {
-          "MongoDB.Driver": "2.15.0",
+          "Play.Common": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -27,6 +27,70 @@
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
+      "Microsoft.Extensions.Configuration/7.0.0-preview.2.22152.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.2.22152.2",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.2.22152.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.2.22152.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.2.22152.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/7.0.0-preview.2.22152.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.2.22152.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0-preview.2.22152.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.2.22152.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.2.22152.2": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0-preview.2.22152.2": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "7.0.0-preview.2.22152.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
@@ -44,7 +108,7 @@
       },
       "MongoDB.Bson/2.15.0": {
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+          "System.Runtime.CompilerServices.Unsafe": "7.0.0-preview.2.22152.2"
         },
         "runtime": {
           "lib/netstandard2.1/MongoDB.Bson.dll": {
@@ -143,6 +207,20 @@
           }
         }
       },
+      "Play.Common/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.2.22152.2",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.0-preview.2.22152.2",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.2.22152.2",
+          "MongoDB.Driver": "2.15.0"
+        },
+        "runtime": {
+          "lib/net6.0/Play.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "SharpCompress/0.30.1": {
         "runtime": {
           "lib/net5.0/SharpCompress.dll": {
@@ -190,7 +268,14 @@
         }
       },
       "System.Buffers/4.5.1": {},
-      "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "System.Runtime.CompilerServices.Unsafe/7.0.0-preview.2.22152.2": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.15202"
+          }
+        }
+      },
       "System.Security.AccessControl/5.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -219,6 +304,48 @@
       "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "path": "microsoft.extensions.apidescription.server/3.0.0",
       "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ns1xgHJRUxquIIFT+B4EQHQOOXhtBwgn/EGlIkktlJNmgqFRyntp/zpfsgQZyZTejLBtGd2hQudlq4H5baDelQ==",
+      "path": "microsoft.extensions.configuration/7.0.0-preview.2.22152.2",
+      "hashPath": "microsoft.extensions.configuration.7.0.0-preview.2.22152.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5nbTJtMAguwIjEXHySsxRm5OSK7gBfjxlm8YWaDFzJG4WvVOQy3f0VjXv1lUa8r4hXzmSvarbdTHeQPBN9AI1A==",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0-preview.2.22152.2",
+      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0-preview.2.22152.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FN2OV6WmPV3F0FFv+Rgw9oSMPNNei9k+5cf8iK50FBQJdLKWk+81eW89gj0DgWn63JzFx8nxqcKKbfWswZ9jPQ==",
+      "path": "microsoft.extensions.configuration.binder/7.0.0-preview.2.22152.2",
+      "hashPath": "microsoft.extensions.configuration.binder.7.0.0-preview.2.22152.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5ZjmjD0WFHE6ioXuV7kKyd+sAUgGkwVgD4B684TPSSTrfo+1Im5NGzokIG9zW0IQC8J/995DGT52sl6feElc3A==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0-preview.2.22152.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0-preview.2.22152.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RpJnYx5jhNthjTKshvJ8eekee9ybB5pQanAtQAK5D1mPNhnStHCBjXUqFwxZHZV+VZiCPRtCbVl9telGBLthaw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0-preview.2.22152.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.2.22152.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0-preview.2.22152.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QwF3+H/IkrnHeXGjTf2p33SvySxLPp1afERXZim+cOs9rrCFhLTPg3XQqxmQgBfB2yGXtyuMuaxEJanWHNC8JQ==",
+      "path": "microsoft.extensions.primitives/7.0.0-preview.2.22152.2",
+      "hashPath": "microsoft.extensions.primitives.7.0.0-preview.2.22152.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
@@ -269,6 +396,13 @@
       "path": "mongodb.libmongocrypt/1.3.0",
       "hashPath": "mongodb.libmongocrypt.1.3.0.nupkg.sha512"
     },
+    "Play.Common/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bZ9qfbnTCNw51dUPaDDXp12XCVW+RV+drjAnBqSZ0TWbL+7vOqZuPf5V79sepTX2H+E7pPIgSwWfZQF9X3vFCQ==",
+      "path": "play.common/1.0.0",
+      "hashPath": "play.common.1.0.0.nupkg.sha512"
+    },
     "SharpCompress/0.30.1": {
       "type": "package",
       "serviceable": true,
@@ -311,12 +445,12 @@
       "path": "system.buffers/4.5.1",
       "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+    "System.Runtime.CompilerServices.Unsafe/7.0.0-preview.2.22152.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
-      "path": "system.runtime.compilerservices.unsafe/5.0.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+      "sha512": "sha512-6g+opYT/xN4Peft3Tar0kmB4FCFqEe4Rd8lDCK055bdod9kQWyuZTVotjwRA1C5x4zH+x8GhDLzDIee1WH2kmw==",
+      "path": "system.runtime.compilerservices.unsafe/7.0.0-preview.2.22152.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.7.0.0-preview.2.22152.2.nupkg.sha512"
     },
     "System.Security.AccessControl/5.0.0": {
       "type": "package",

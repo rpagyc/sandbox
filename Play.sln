@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Catalog", "Play.Catalog", "{6420AB3F-83B8-473E-871C-25FC6F82406E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A856F5ED-4F1B-4591-895E-6CBABEF83659}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Catalog.Service", "Play.Catalog.Service\Play.Catalog.Service.csproj", "{1D502260-3ED8-4899-A281-C3B6A89D1BCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Service", "Play.Catalog.Service\Play.Catalog.Service.csproj", "{1D502260-3ED8-4899-A281-C3B6A89D1BCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{A856F5ED-4F1B-4591-895E-6CBABEF83659} = {6420AB3F-83B8-473E-871C-25FC6F82406E}
-		{1D502260-3ED8-4899-A281-C3B6A89D1BCA} = {A856F5ED-4F1B-4591-895E-6CBABEF83659}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE8BA14E-B61F-482C-AA0C-170BC84961B9}

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Play.Catalog.Service.Entities;
-using Play.Catalog.Service.Repositories;
+using Play.Common;
 
 namespace Play.Catalog.Service.Controllers
 {
@@ -8,9 +8,9 @@ namespace Play.Catalog.Service.Controllers
     [Route("items")]
     public class ItemsController : ControllerBase
     {
-        private readonly IItemsRepository _itemsRepository;
+        private readonly IRepository<Item> _itemsRepository;
 
-        public ItemsController(IItemsRepository itemsRepository)
+        public ItemsController(IRepository<Item> itemsRepository)
         {
             _itemsRepository = itemsRepository;
         }
@@ -27,7 +27,7 @@ namespace Play.Catalog.Service.Controllers
 
         [HttpGet("{id}")]
         public async Task<ActionResult<ItemDto>> GetByIdAsync(Guid id)
-        {   
+        {
             var item = await _itemsRepository.GetAsync(id);
 
             if (item is null)
@@ -47,9 +47,9 @@ namespace Play.Catalog.Service.Controllers
                 Price = createItemDto.Price,
                 CreatedDate = DateTimeOffset.UtcNow
             };
-            
+
             await _itemsRepository.CreateAsync(item);
-            
+
             return CreatedAtAction(nameof(GetByIdAsync), new { id = item.Id }, item);
         }
 
