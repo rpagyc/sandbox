@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SfkowzjhTp8ajRPWCeQo2b5Rjatu7Ho7OOwmP8pzP7lQwJWitpF4s/2uc6mHTPFugtSBTbjrQPrdeser2yxwTg==",
+  "dgSpecHash": "LAGLYBsDU4gC+LRLGGsCDYKT5e9jlqax2EWfWklAP1BKEqTD9QB6BhjhQcZz3THLqVloyOb1+l0/3QjVTMylng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Roman\\source\\repos\\Play\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\Roman\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-preview.2.22152.2\\microsoft.extensions.primitives.7.0.0-preview.2.22152.2.nupkg.sha512",
     "C:\\Users\\Roman\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Roman\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\Roman\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Roman\\.nuget\\packages\\mongodb.bson\\2.15.0\\mongodb.bson.2.15.0.nupkg.sha512",
     "C:\\Users\\Roman\\.nuget\\packages\\mongodb.driver\\2.15.0\\mongodb.driver.2.15.0.nupkg.sha512",
