@@ -25,6 +25,7 @@ namespace Play.Catalog.Service.Controllers
 
         }
 
+        // GET /items/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<ItemDto>> GetByIdAsync(Guid id)
         {
@@ -80,7 +81,7 @@ namespace Play.Catalog.Service.Controllers
             if (item is null)
                 return NotFound();
 
-            await _itemsRepository.DeleteAsync(item.Id);
+            await _itemsRepository.RemoveAsync(item.Id);
 
             return NoContent();
         }
