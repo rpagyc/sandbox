@@ -1,12 +1,23 @@
+name: dockercompose936753417790399477
 services:
   mongo:
     container_name: mongo
     image: mongo
+    networks:
+      default: null
     ports:
-    - published: 27017
+    - mode: ingress
       target: 27017
+      published: "27017"
+      protocol: tcp
     volumes:
-    - mongodbdata:/data/db:rw
-version: '3.8'
+    - type: volume
+      source: mongodbdata
+      target: /data/db
+      volume: {}
+networks:
+  default:
+    name: dockercompose936753417790399477_default
 volumes:
-  mongodbdata: {}
+  mongodbdata:
+    name: dockercompose936753417790399477_mongodbdata

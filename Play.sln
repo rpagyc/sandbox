@@ -5,9 +5,16 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Service", "Play.Catalog.Service\Play.Catalog.Service.csproj", "{1D502260-3ED8-4899-A281-C3B6A89D1BCA}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EBBABB07-1CCC-4A20-A5EB-33802328CAC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Inventory.Service", "Play.Inventory.Service\Play.Inventory.Service.csproj", "{E3536830-D12D-4A28-9207-2CF1EED457CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Inventory.Service", "Play.Inventory.Service\Play.Inventory.Service.csproj", "{E3536830-D12D-4A28-9207-2CF1EED457CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Catalog.Contracts", "Play.Catalog.Contracts\Play.Catalog.Contracts.csproj", "{B3A38C34-45A5-4FA3-A9A8-A4FAD875E34D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Common", "Play.Common\Play.Common.csproj", "{DEB5A091-D94F-448A-A43D-79C669BA6DD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Infra", "Play.Infra", "{1A189FBA-3A2D-4A58-803F-07690EC8DB55}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +26,18 @@ Global
 		{1D502260-3ED8-4899-A281-C3B6A89D1BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D502260-3ED8-4899-A281-C3B6A89D1BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D502260-3ED8-4899-A281-C3B6A89D1BCA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EBBABB07-1CCC-4A20-A5EB-33802328CAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBBABB07-1CCC-4A20-A5EB-33802328CAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBBABB07-1CCC-4A20-A5EB-33802328CAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBBABB07-1CCC-4A20-A5EB-33802328CAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E3536830-D12D-4A28-9207-2CF1EED457CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E3536830-D12D-4A28-9207-2CF1EED457CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3536830-D12D-4A28-9207-2CF1EED457CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3536830-D12D-4A28-9207-2CF1EED457CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A38C34-45A5-4FA3-A9A8-A4FAD875E34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A38C34-45A5-4FA3-A9A8-A4FAD875E34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A38C34-45A5-4FA3-A9A8-A4FAD875E34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A38C34-45A5-4FA3-A9A8-A4FAD875E34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB5A091-D94F-448A-A43D-79C669BA6DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB5A091-D94F-448A-A43D-79C669BA6DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB5A091-D94F-448A-A43D-79C669BA6DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB5A091-D94F-448A-A43D-79C669BA6DD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

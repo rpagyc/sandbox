@@ -99,7 +99,7 @@ namespace Play.Catalog.Service.Controllers
             if (item is null)
                 return NotFound();
 
-            await _itemsRepository.RemoveAsync(item.Id);
+            await _itemsRepository.DeleteAsync(item.Id);
 
             return NoContent();
         }

@@ -16,6 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Play.Catalog.Contracts\Play.Catalog.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Play.Common">
       <HintPath>bin\Debug\net6.0\Play.Common.dll</HintPath>
     </Reference>

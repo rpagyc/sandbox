@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\sandbox\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {}
+    "C:\\Users\\Roman\\source\\repos\\Play\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\sandbox\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {
+    "C:\\Users\\Roman\\source\\repos\\Play\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\sandbox\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Roman\\source\\repos\\Play\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
         "projectName": "Play.Inventory.Service",
-        "projectPath": "C:\\Repos\\sandbox\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
-        "packagesPath": "C:\\Users\\rpagyc\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\sandbox\\Play.Inventory.Service\\obj\\",
+        "projectPath": "C:\\Users\\Roman\\source\\repos\\Play\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
+        "packagesPath": "C:\\Users\\Roman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roman\\source\\repos\\Play\\Play.Inventory.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rpagyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Roman\\source\\repos\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
