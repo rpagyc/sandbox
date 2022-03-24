@@ -46,3 +46,6 @@ C:\Repos\sandbox\Play.Inventory.Service\bin\Debug\net6.0\SharpCompress.dll
 C:\Repos\sandbox\Play.Inventory.Service\bin\Debug\net6.0\runtimes\win\native\libzstd.dll
 C:\Repos\sandbox\Play.Inventory.Service\bin\Debug\net6.0\runtimes\win\native\snappy32.dll
 C:\Repos\sandbox\Play.Inventory.Service\bin\Debug\net6.0\runtimes\win\native\snappy64.dll
+C:\Repos\sandbox\Play.Inventory.Service\bin\Debug\net6.0\Microsoft.Extensions.Http.Polly.dll
+C:\Repos\sandbox\Play.Inventory.Service\bin\Debug\net6.0\Polly.dll
+C:\Repos\sandbox\Play.Inventory.Service\bin\Debug\net6.0\Polly.Extensions.Http.dll
