@@ -15,7 +15,17 @@
       "ProjectGuid": "ebbabb07-1ccc-4a20-a5eb-33802328cac1",
       "DisplayName": "docker-compose",
       "ColorIndex": 1
+    },
+    "deb5a091-d94f-448a-a43d-79c669ba6dd5": {
+      "ProjectGuid": "deb5a091-d94f-448a-a43d-79c669ba6dd5",
+      "DisplayName": "Play.Common",
+      "ColorIndex": 2
+    },
+    "1a189fba-3a2d-4a58-803f-07690ec8db55": {
+      "ProjectGuid": "1a189fba-3a2d-4a58-803f-07690ec8db55",
+      "DisplayName": "Play.Infra",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }

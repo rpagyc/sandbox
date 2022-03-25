@@ -11,18 +11,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
-    <PackageReference Include="Play.Common" Version="1.0.0" />
+    <PackageReference Include="Play.Common" Version="1.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Play.Catalog.Contracts\Play.Catalog.Contracts.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Play.Common">
-      <HintPath>bin\Debug\net6.0\Play.Common.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

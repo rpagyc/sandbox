@@ -55,7 +55,6 @@ C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\Play.In
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\Play.Inventory.Service.deps.json
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\Play.Inventory.Service.runtimeconfig.json
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\Play.Inventory.Service.dll
-C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\ref\Play.Inventory.Service.dll
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\Play.Inventory.Service.pdb
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\DnsClient.dll
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
@@ -102,3 +101,12 @@ C:\Users\Roman\source\repos\Play\Play.Inventory.Service\obj\Debug\net6.0\Play.In
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\obj\Debug\net6.0\ref\Play.Inventory.Service.dll
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\obj\Debug\net6.0\Play.Inventory.Service.pdb
 C:\Users\Roman\source\repos\Play\Play.Inventory.Service\obj\Debug\net6.0\Play.Inventory.Service.genruntimeconfig.cache
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\obj\Debug\net6.0\Play.Inventory.Service.csproj.AssemblyReference.cache
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\obj\Debug\net6.0\refint\Play.Inventory.Service.dll
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\MassTransit.dll
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\MassTransit.Abstractions.dll
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\Play.Catalog.Contracts.dll
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Roman\source\repos\Play\Play.Inventory.Service\bin\Debug\net6.0\System.Text.Json.dll

@@ -52,7 +52,6 @@ C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\Play.Cata
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\Play.Catalog.Service.deps.json
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\Play.Catalog.Service.runtimeconfig.json
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\Play.Catalog.Service.dll
-C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\ref\Play.Catalog.Service.dll
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\Play.Catalog.Service.pdb
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\DnsClient.dll
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
@@ -99,3 +98,10 @@ C:\Users\Roman\source\repos\Play\Play.Catalog.Service\obj\Debug\net6.0\Play.Cata
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\obj\Debug\net6.0\ref\Play.Catalog.Service.dll
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\obj\Debug\net6.0\Play.Catalog.Service.pdb
 C:\Users\Roman\source\repos\Play\Play.Catalog.Service\obj\Debug\net6.0\Play.Catalog.Service.genruntimeconfig.cache
+C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\MassTransit.dll
+C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\MassTransit.Abstractions.dll
+C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Roman\source\repos\Play\Play.Catalog.Service\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Roman\source\repos\Play\Play.Catalog.Service\obj\Debug\net6.0\refint\Play.Catalog.Service.dll

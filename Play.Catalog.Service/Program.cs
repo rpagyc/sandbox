@@ -1,15 +1,19 @@
 using Play.Catalog.Service.Entities;
+using Play.Common.MassTransit;
 using Play.Common.MongoDB;
 using Play.Common.Settings;
+
+const string AllowedOriginSetting = "AllowedOrigin";
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-var serviceOptions = builder.Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
+var serviceSettings = builder.Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
 
 builder.Services.AddMongo()
-    .AddMongoRepository<Item>("items");
+    .AddMongoRepository<Item>("items")
+    .AddMassTransitWithRabbitMq();
 
 builder.Services.AddControllers(options =>
 {
@@ -26,6 +30,13 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+    app.UseCors(b =>
+    {
+        b.WithOrigins(builder.Configuration[AllowedOriginSetting])
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
 }
 
 app.UseHttpsRedirection();
