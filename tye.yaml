@@ -1,0 +1,24 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: play
+services:
+- name: play-catalog-service
+  project: Play.Catalog.Service/Play.Catalog.Service.csproj
+- name: play-inventory-service
+  project: Play.Inventory.Service/Play.Inventory.Service.csproj
+- name: mongo
+  image: mongo
+  bindings:
+  - port: 27017
+    containerPort: 27017
+    protocol: http
+- name: rabbitmq
+  image: rabbitmq:management
+  bindings:
+  - port: 5672
+    containerPort: 5672
+    protocol: http 
